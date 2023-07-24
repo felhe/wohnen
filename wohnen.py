@@ -44,7 +44,7 @@ def main():
         sitem = getattr(sys.modules[__name__], site)
         if args.scrape:
             scraper = getattr(sitem, "scraper")
-            html = scraper.scrape(config.min_rooms, config.max_rooms, config.max_rent, config.wbs)
+            html = scraper.scrape(config.min_rooms, config.max_rooms, config.max_rent, config.wbs, config.bez)
         else:
             scraper = None
             html = get_sample(site)
@@ -53,7 +53,10 @@ def main():
         aparts = parser.parse(html)
 
         with open(config.jsonfile, 'r') as infile:
-            known_apartments = json.load(infile)
+            try:
+                known_apartments = json.load(infile)
+            except json.decoder.JSONDecodeError:
+                known_apartments = []
 
         new_apartments = [x for x in aparts if x not in known_apartments]
 

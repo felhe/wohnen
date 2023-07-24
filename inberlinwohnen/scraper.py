@@ -71,7 +71,7 @@ search_data = {
 }
 
 
-def get_search(min_rooms, max_rooms, max_rent, wbs):
+def get_search(min_rooms, max_rooms, max_rent, wbs, bez):
     wbs_map = {
         0: 'must_not',
         1: 'must',
@@ -82,11 +82,12 @@ def get_search(min_rooms, max_rooms, max_rent, wbs):
     s['rooms_max'] = str(max_rooms)
     s['miete_max'] = str(max_rent)
     s['wbs'] = wbs_map[wbs]
+    s['bez[]'] = bez
     return s
 
 
-def scrape(min_rooms, max_rooms, max_rent, wbs):
-    search_d = get_search(min_rooms, max_rooms, max_rent, wbs)
+def scrape(min_rooms, max_rooms, max_rent, wbs, bez):
+    search_d = get_search(min_rooms, max_rooms, max_rent, wbs, bez)
     search = s.post(search_url, data=search_d, headers=search_headers)
     # search.raise_for_status()
     # parse result as json

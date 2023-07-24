@@ -9,10 +9,16 @@ chat_id = os.environ['TELEGRAM_CHAT_ID']
 
 # set search parameters
 min_rooms = 1
-max_rooms = 2
+max_rooms = 3
 max_rent = 600
+bez = [
+    "01_00",
+    "02_00",
+    "09_00",
+    "11_00"
+]
+
 # 0 = no wbs
 # 1 = only wbs
 # 2 = doesn't matter
 wbs = 2
-
