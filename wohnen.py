@@ -24,13 +24,6 @@ args = parser.parse_args()
 logger = logging.getLogger()
 logger.setLevel(config.loglevel)
 
-ch = logging.StreamHandler(sys.stdout)
-ch.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(name)s - %(message)s', "%Y-%m-%d %H:%M:%S")
-ch.setFormatter(formatter)
-logger.addHandler(ch)
-
-
 def get_sample(site):
     logger.warning("Using sample file for {}".format(site))
     with open('{}/sample.txt'.format(site), 'r') as f:
@@ -72,6 +65,7 @@ def main():
 
 
 if __name__ == "__main__":
+    main()
     if args.interval > 0:
         lower = round(args.interval - args.interval / 2)
         upper = round(args.interval + args.interval / 2)
@@ -80,5 +74,3 @@ if __name__ == "__main__":
         while True:
             schedule.run_pending()
             time.sleep(1)
-    else:
-        main()
