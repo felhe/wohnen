@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  wohnen:
+    image: "ghcr.io/felhe/wohnen:latest"
+    environment:
+      TELEGRAM_BOT_TOKEN: YOUR_TOKEN
+      TELEGRAM_CHAT_ID: YOUR_CHAT_ID
