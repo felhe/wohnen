@@ -6,6 +6,7 @@ loglevel = INFO
 
 bot_token = os.environ['TELEGRAM_BOT_TOKEN']
 chat_id = os.environ['TELEGRAM_CHAT_ID']
+channel_id = os.environ['TELEGRAM_CHANNEL_ID']
 
 # set search parameters
 min_rooms = 1
