@@ -1,4 +1,4 @@
-from typing import TypedDict
+from typing import TypedDict, List
 
 
 class Apartment(TypedDict):
@@ -12,4 +12,5 @@ class Apartment(TypedDict):
     year: str
     link: str
     image: str
+    coords: List[float]
 

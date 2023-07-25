@@ -9,6 +9,7 @@ import schedule
 
 import config
 from telegram_notifications import bot
+from geocode import nominatim
 
 import inberlinwohnen.parser
 import inberlinwohnen.scraper
@@ -23,6 +24,7 @@ args = parser.parse_args()
 
 logger = logging.getLogger()
 logger.setLevel(config.loglevel)
+
 
 def get_sample(site):
     logger.warning("Using sample file for {}".format(site))
@@ -43,7 +45,11 @@ def main():
             html = get_sample(site)
 
         parser = getattr(sitem, "parser")
-        aparts = parser.parse(html)
+        apartments = parser.parse(html)
+        # get coordinates
+        for apart in apartments:
+            if 'addr' in apart:
+                apart['coords'] = asyncio.run(nominatim.geocode(apart['addr'] + ", Berlin"))
 
         with open(config.jsonfile, 'r') as infile:
             try:
@@ -51,10 +57,10 @@ def main():
             except json.decoder.JSONDecodeError:
                 known_apartments = []
 
-        new_apartments = [x for x in aparts if x not in known_apartments]
+        new_apartments = [x for x in apartments if x not in known_apartments]
 
         with open(config.jsonfile, 'w') as outfile:
-            json.dump(aparts, outfile)
+            json.dump(apartments, outfile)
 
         logger.info("Found {} new apartments".format(len(new_apartments)))
 
