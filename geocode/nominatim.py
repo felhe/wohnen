@@ -7,8 +7,10 @@ async def geocode(address, attempt=1, max_attempts=5):
                 user_agent="Felix' Wohnungsbot",
         ) as geolocator:
             location = geolocator.geocode(address, exactly_one=True, timeout=60)
+            if location is None:
+                raise Exception("No location found")
             return [location.latitude, location.longitude]
-    except Exception as e:
+    except:
         if attempt <= max_attempts:
             return await geocode(address, attempt=attempt + 1)
-        raise e
+        return None

@@ -1,178 +1,206 @@
 [
   {
-    "addr": "Mentelinstra\u00dfe 11, Obersch\u00f6neweide",
-    "floor": "3 (von insg. 3)",
-    "price": 359.87,
+    "addr": "Wendenschlo\u00dfstra\u00dfe 121, K\u00f6penick",
+    "floor": "4 (von insg. 4)",
+    "price": 566.39,
+    "rooms": 3.0,
+    "sqm": 74.78,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "1998",
+    "link": "https://inberlinwohnen.de/gpgf_W1300.65830.0167-0401.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-968279990651e0fd16546e_20231005032225-300x300.jpg",
+    "coords": [
+      52.4144825,
+      13.590293
+    ]
+  },
+  {
+    "addr": "Hassoweg 19, Altglienicke",
+    "floor": "3 (von insg. 5)",
+    "price": 589.17,
+    "rooms": 3.0,
+    "sqm": 71.85,
+    "timeframe": "29. Februar 2024",
+    "wbs": "erforderlich",
+    "year": "2024",
+    "link": "https://inberlinwohnen.de/gpgf_MO::1001/5239/30.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-stadt-und-land-1955431369651eb6a282f29_20231005151410-300x300.jpg",
+    "coords": [
+      52.4100084,
+      13.5378203
+    ]
+  },
+  {
+    "addr": "Hassoweg 19, Altglienicke",
+    "floor": "1 (von insg. 5)",
+    "price": 339.04,
     "rooms": 2.0,
-    "sqm": 58.61,
+    "sqm": 52.16,
+    "timeframe": "29. Februar 2024",
+    "wbs": "erforderlich",
+    "year": "2024",
+    "link": "https://inberlinwohnen.de/gpgf_MO::1001/5239/23.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-stadt-und-land-744610520651eb6a1c5538_20231005151409-300x300.jpg",
+    "coords": [
+      52.4100084,
+      13.5378203
+    ]
+  },
+  {
+    "addr": "Krautstra\u00dfe 5, Friedrichshain",
+    "floor": "1",
+    "price": 390.96,
+    "rooms": 2.0,
+    "sqm": 63.16,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "1965",
+    "link": "https://inberlinwohnen.de/gpgf_51-3005/1/101.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-wbm-1902800959651eb176bb4d6_20231005145206-300x300.jpg",
+    "coords": [
+      52.5164555,
+      13.4288928
+    ]
+  },
+  {
+    "addr": "Konrad-Wolf-Str. 102, Lichtenberg",
+    "floor": "2 (von insg. 4)",
+    "price": 471.74,
+    "rooms": 3.0,
+    "sqm": 71.41,
+    "timeframe": "ab sofort",
+    "wbs": "?",
+    "year": "1920",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/10072/3.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-441641407651ea90af0005_20231005141610-300x300.jpg",
+    "coords": [
+      52.5444282,
+      13.493268
+    ]
+  },
+  {
+    "addr": "Gro\u00dfe-Leege-Str. 43, Lichtenberg",
+    "floor": "1 (von insg. 5)",
+    "price": 339.45,
+    "rooms": 2.0,
+    "sqm": 48.17,
     "timeframe": "ab sofort",
     "wbs": "?",
     "year": "1930",
-    "link": "https://inberlinwohnen.de/gpgf_W1300.02413.0098-0302.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-113579698064bf72f3ca4ab_20230725090003-300x300.jpg",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/10373/26.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-492038388651ea81d839a6_20231005141213-300x300.jpg",
     "coords": [
-      52.4703384,
-      13.5104578
+      52.5395894,
+      13.4905785
     ]
   },
   {
-    "addr": "M\u00fcggelheimer Stra\u00dfe 2B, K\u00f6penick",
-    "floor": "2 (von insg. 4)",
-    "price": 504.82,
+    "addr": "Guntherstra\u00dfe 38, Lichtenberg",
+    "floor": "1 (von insg. 5)",
+    "price": 348.99,
     "rooms": 2.0,
-    "sqm": 61.85,
+    "sqm": 49.65,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "1959",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1770/20301/150.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-90918400651ea7a03c834_20231005141008-300x300.jpg",
+    "coords": [
+      52.5147342,
+      13.5011178
+    ]
+  },
+  {
+    "addr": "Konrad-Wolf-Str. 87, Lichtenberg",
+    "floor": "4 (von insg. 4)",
+    "price": 280.69,
+    "rooms": 1.0,
+    "sqm": 36.52,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "1920",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/10913/16.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1061837715651ea096ad3e1_20231005134006-300x300.jpg",
+    "coords": [
+      52.5398635,
+      13.4847981
+    ]
+  },
+  {
+    "addr": "Hassoweg 29, Altglienicke",
+    "floor": "Ergeschoss (von insg. 4)",
+    "price": 225.12,
+    "rooms": 1.0,
+    "sqm": 33.6,
+    "timeframe": "29. Februar 2024",
+    "wbs": "erforderlich",
+    "year": "2024",
+    "link": "https://inberlinwohnen.de/gpgf_MO::1001/5239/97.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-stadt-und-land-954375002651e9a8a89aea_20231005131418-300x300.jpg",
+    "coords": [
+      52.4100084,
+      13.5378203
+    ]
+  },
+  {
+    "addr": "Goethestra\u00dfe 38, Obersch\u00f6neweide",
+    "floor": "4 (von insg. 4)",
+    "price": 438.58,
+    "rooms": 2.0,
+    "sqm": 55.92,
     "timeframe": "ab sofort",
     "wbs": "?",
-    "year": "1915",
-    "link": "https://inberlinwohnen.de/gpgf_W1300.63815.0006-0201.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-114949485764bf6f32ec4a4_20230725084402-300x300.jpg",
+    "year": "1936",
+    "link": "https://inberlinwohnen.de/gpgf_W1300.20235.0016-0401.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-169337368651e7a9e1f829_20231005105806-300x300.jpg",
     "coords": [
-      52.4436448,
-      13.5788247
+      52.4622999,
+      13.5179194
     ]
   },
   {
-    "addr": "M\u00fcggelheimer Stra\u00dfe 55, K\u00f6penick",
-    "floor": "2 (von insg. 5)",
-    "price": 356.43,
-    "rooms": 3.0,
-    "sqm": 66.21,
+    "addr": "K\u00fchlungsborner Str. 27, Lichtenberg",
+    "floor": "4 (von insg. 6)",
+    "price": 325.44,
+    "rooms": 2.0,
+    "sqm": 53.02,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "1986",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/12560/19.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1432430013651e78479f495_20231005104807-300x300.jpg",
+    "coords": [
+      52.571582,
+      13.4942839
+    ]
+  },
+  {
+    "addr": "Wilhelm-Kuhr-Stra\u00dfe 50, Wedding",
+    "floor": "2 (von insg. 8)",
+    "price": 276.97,
+    "rooms": 1.0,
+    "sqm": 32.7,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "1969",
+    "link": "https://inberlinwohnen.de/gpgf_W1100.00728.0024-0205.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-598907928651db79c1222a_20231004210604-300x300.jpg"
+  },
+  {
+    "addr": "Karl-Ziegler-Stra\u00dfe 3, Treptow-K\u00f6penick",
+    "floor": "1 (von insg. 5)",
+    "price": 330.0,
+    "rooms": 1.0,
+    "sqm": 24.0,
     "timeframe": "ab sofort",
     "wbs": "?",
-    "year": "1988",
-    "link": "https://inberlinwohnen.de/gpgf_W1300.02409.0122-0203.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-73255627064bf29d3690ce_20230725034803-300x300.jpg",
+    "year": "2022",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14576/424.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-2036984198651d98366daba_20231004185206-300x300.jpg",
     "coords": [
-      52.4435454,
-      13.5808886
-    ]
-  },
-  {
-    "addr": "An der Mole 9, Lichtenberg",
-    "floor": "3 (von insg. 8)",
-    "price": 531.6,
-    "rooms": 3.0,
-    "sqm": 63.0,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "2023",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14568/9996.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-728890936649af7216c165_20230627165009-300x300.jpg",
-    "coords": [
-      52.499974,
-      13.469029
-    ]
-  },
-  {
-    "addr": "An der Mole 9, Lichtenberg",
-    "floor": "1 (von insg. 8)",
-    "price": 352.6,
-    "rooms": 1.0,
-    "sqm": 43.0,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "2023",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14568/9990.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1427638785649af7201cc4c_20230627165008-300x300.jpg",
-    "coords": [
-      52.499974,
-      13.469029
-    ]
-  },
-  {
-    "addr": "An der Mole 9, Lichtenberg",
-    "floor": "1 (von insg. 8)",
-    "price": 288.1,
-    "rooms": 1.0,
-    "sqm": 43.0,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "2023",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14568/9989.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-622892410649af6ac91b4b_20230627164812-300x300.jpg",
-    "coords": [
-      52.499974,
-      13.469029
-    ]
-  },
-  {
-    "addr": "An der Mole 9, Lichtenberg",
-    "floor": "1 (von insg. 8)",
-    "price": 279.5,
-    "rooms": 1.0,
-    "sqm": 43.0,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "2023",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14568/9988.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-172773660649af6ae3b7fb_20230627164814-300x300.jpg",
-    "coords": [
-      52.499974,
-      13.469029
-    ]
-  },
-  {
-    "addr": "An der Mole 7, Lichtenberg",
-    "floor": "2 (von insg. 7)",
-    "price": 418.2,
-    "rooms": 2.0,
-    "sqm": 51.0,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "2023",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14568/9994.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1297466408649af6aac7bb5_20230627164810-300x300.jpg",
-    "coords": [
-      52.5002467,
-      13.4691444
-    ]
-  },
-  {
-    "addr": "An der Mole 7, Lichtenberg",
-    "floor": "2 (von insg. 7)",
-    "price": 331.5,
-    "rooms": 2.0,
-    "sqm": 51.0,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "2023",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14568/9992.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1471910734649af630b6a2f_20230627164608-300x300.jpg",
-    "coords": [
-      52.5002467,
-      13.4691444
-    ]
-  },
-  {
-    "addr": "An der Mole 5, Lichtenberg",
-    "floor": "2 (von insg. 7)",
-    "price": 341.7,
-    "rooms": 2.0,
-    "sqm": 51.0,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "2023",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14568/9993.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-14549601649af6320c682_20230627164610-300x300.jpg",
-    "coords": [
-      52.5004605,
-      13.4692329
-    ]
-  },
-  {
-    "addr": "An der Mole 3, Lichtenberg",
-    "floor": "1 (von insg. 7)",
-    "price": 505.0,
-    "rooms": 1.0,
-    "sqm": 40.0,
-    "timeframe": "ab sofort",
-    "wbs": "?",
-    "year": "2023",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14568/9987.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-15087915046499953b53e5b_20230626154011-300x300.jpg",
-    "coords": [
-      52.5007287,
-      13.4693549
+      52.4348455,
+      13.5232397
     ]
   }
 ]

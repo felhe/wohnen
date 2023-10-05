@@ -46,10 +46,6 @@ def main():
 
         parser = getattr(sitem, "parser")
         apartments = parser.parse(html)
-        # get coordinates
-        for apart in apartments:
-            if 'addr' in apart:
-                apart['coords'] = asyncio.run(nominatim.geocode(apart['addr'] + ", Berlin"))
 
         with open(config.jsonfile, 'r') as infile:
             try:
@@ -57,8 +53,16 @@ def main():
             except json.decoder.JSONDecodeError:
                 known_apartments = []
 
-        new_apartments = [x for x in apartments if x not in known_apartments]
+        new_apartments = [x for x in apartments if x['link'] not in [y['link'] for y in known_apartments]]
 
+        # get coordinates
+        for apart in new_apartments:
+            if 'addr' in apart:
+                coords = asyncio.run(nominatim.geocode(apart['addr'] + ", Berlin"))
+                if coords is not None:
+                    apart['coords'] = coords
+
+        apartments = new_apartments + known_apartments
         with open(config.jsonfile, 'w') as outfile:
             json.dump(apartments, outfile)
 

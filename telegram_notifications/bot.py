@@ -43,12 +43,13 @@ async def send_apartment(apartment: Apartment):
 
     # wait for updates until certain message is received
     # stop polling after 30 seconds
-    while updater.running:
-        try:
-            update = await asyncio.wait_for(updates.get(), timeout=30)
-            if update.message.forward_from_message_id == message.message_id:
-                await bot.send_location(chat_id=config.chat_id, reply_to_message_id=update.message.message_id,
-                                        latitude=apartment['coords'][0], longitude=apartment['coords'][1], disable_notification=True)
+    if 'coords' in apartment:
+        while updater.running:
+            try:
+                update = await asyncio.wait_for(updates.get(), timeout=30)
+                if update.message.forward_from_message_id == message.message_id:
+                    await bot.send_location(chat_id=config.chat_id, reply_to_message_id=update.message.message_id,
+                                            latitude=apartment['coords'][0], longitude=apartment['coords'][1], disable_notification=True)
+                    await updater.stop()
+            except asyncio.exceptions.TimeoutError:
                 await updater.stop()
-        except asyncio.exceptions.TimeoutError:
-            await updater.stop()
