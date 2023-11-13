@@ -44,6 +44,10 @@ def main():
             scraper = None
             html = get_sample(site)
 
+        if html is None:
+            logger.error("Could not scrape {}".format(site))
+            continue
+
         parser = getattr(sitem, "parser")
         apartments = parser.parse(html)
 

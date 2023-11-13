@@ -88,7 +88,12 @@ def get_search(min_rooms, max_rooms, max_rent, wbs, bez):
 
 def scrape(min_rooms, max_rooms, max_rent, wbs, bez):
     search_d = get_search(min_rooms, max_rooms, max_rent, wbs, bez)
-    search = s.post(search_url, data=search_d, headers=search_headers)
+    try:
+        search = s.post(search_url, data=search_d, headers=search_headers)
+        search.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        logger.error(e)
+        return None
     # search.raise_for_status()
     # parse result as json
     search_json = search.json()

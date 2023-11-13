@@ -1,5 +1,81 @@
 [
   {
+    "addr": "Wilhelm-Kuhr-Stra\u00dfe 50, Wedding",
+    "floor": "4 (von insg. 8)",
+    "price": 302.97,
+    "rooms": 1.0,
+    "sqm": 35.77,
+    "timeframe": "ab sofort",
+    "wbs": "?",
+    "year": "1969",
+    "link": "https://inberlinwohnen.de/gpgf_W1100.00728.0059-0402.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-12293759516552739c52eb2_20231113200604-300x300.jpg"
+  },
+  {
+    "addr": "Graunstra\u00dfe 12, Gesundbrunnen",
+    "floor": "2 (von insg. 7)",
+    "price": 269.01,
+    "rooms": 1.0,
+    "sqm": 41.92,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "1979",
+    "link": "https://inberlinwohnen.de/gpgf_W1500.00757.0055-0207.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-17033061756552487d1ebaf_20231113170205-300x300.jpg",
+    "coords": [
+      52.5457023,
+      13.3985653
+    ]
+  },
+  {
+    "addr": "Eichbuschallee 51, Treptow-K\u00f6penick",
+    "floor": "1 (von insg. 4)",
+    "price": 350.0,
+    "rooms": 1.0,
+    "sqm": 25.0,
+    "timeframe": "ab sofort",
+    "wbs": "?",
+    "year": "2023",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14608/9998.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1064714688655210b9eaa2e_20231113130409-300x300.jpg",
+    "coords": [
+      52.4725036,
+      13.4809965
+    ]
+  },
+  {
+    "addr": "Eichbuschallee 51, Treptow-K\u00f6penick",
+    "floor": "15 (von insg. 4)",
+    "price": 370.0,
+    "rooms": 1.0,
+    "sqm": 26.0,
+    "timeframe": "ab sofort",
+    "wbs": "?",
+    "year": "2023",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14608/9999.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1646251111655210bc01e38_20231113130412-300x300.jpg",
+    "coords": [
+      52.4725036,
+      13.4809965
+    ]
+  },
+  {
+    "addr": "Schwyzer Stra\u00dfe 28, Mitte",
+    "floor": "3",
+    "price": 370.89,
+    "rooms": 2.0,
+    "sqm": 52.74,
+    "timeframe": "15. November 2023",
+    "wbs": "erforderlich",
+    "year": "1956",
+    "link": "https://inberlinwohnen.de/gpgf_10-00751-0817-G.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-gesobau-1879182047654cf0abdfddd_20231109154603-300x300.png",
+    "coords": [
+      52.5601317,
+      13.3592335
+    ]
+  },
+  {
     "addr": "Wendenschlo\u00dfstra\u00dfe 121, K\u00f6penick",
     "floor": "4 (von insg. 4)",
     "price": 566.39,
