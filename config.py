@@ -23,4 +23,5 @@ bez = [
 # 0 = no wbs
 # 1 = only wbs
 # 2 = doesn't matter
-wbs = os.environ['WBS'] if 'WBS' in os.environ else 2
+# parse as int
+wbs = int(os.environ['WBS']) if 'WBS' in os.environ else 2
