@@ -11,7 +11,8 @@ channel_id = os.environ['TELEGRAM_CHANNEL_ID']
 # set search parameters
 min_rooms = 1
 max_rooms = 3
-max_rent = 600
+# max rent or 700 as default
+max_rent = os.environ['MAX_RENT'] if 'MAX_RENT' in os.environ else 700
 bez = [
     "01_00",
     "02_00",
@@ -22,4 +23,4 @@ bez = [
 # 0 = no wbs
 # 1 = only wbs
 # 2 = doesn't matter
-wbs = 2
+wbs = os.environ['WBS'] if 'WBS' in os.environ else 2
