@@ -1,282 +1,354 @@
 [
   {
-    "addr": "Wilhelm-Kuhr-Stra\u00dfe 50, Wedding",
-    "floor": "4 (von insg. 8)",
-    "price": 302.97,
+    "addr": "Sewanstra\u00dfe 40, Friedrichsfelde",
+    "floor": "1 (von insg. 8)",
+    "price": 240.5,
     "rooms": 1.0,
-    "sqm": 35.77,
+    "sqm": 37.0,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "2025",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14615/9993.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-14396842967ff6929b399e_20250416102409-300x300.jpg",
+    "coords": [
+      52.4939948,
+      13.5150652
+    ]
+  },
+  {
+    "addr": "Sewanstra\u00dfe 40, Friedrichsfelde",
+    "floor": "1 (von insg. 8)",
+    "price": 518.0,
+    "rooms": 1.0,
+    "sqm": 37.0,
     "timeframe": "ab sofort",
     "wbs": "?",
-    "year": "1969",
-    "link": "https://inberlinwohnen.de/gpgf_W1100.00728.0059-0402.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-12293759516552739c52eb2_20231113200604-300x300.jpg"
-  },
-  {
-    "addr": "Graunstra\u00dfe 12, Gesundbrunnen",
-    "floor": "2 (von insg. 7)",
-    "price": 269.01,
-    "rooms": 1.0,
-    "sqm": 41.92,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "1979",
-    "link": "https://inberlinwohnen.de/gpgf_W1500.00757.0055-0207.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-17033061756552487d1ebaf_20231113170205-300x300.jpg",
+    "year": "2025",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14615/9994.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-195763483967ff692f50e04_20250416102415-300x300.jpg",
     "coords": [
-      52.5457023,
-      13.3985653
+      52.4939948,
+      13.5150652
     ]
   },
   {
-    "addr": "Eichbuschallee 51, Treptow-K\u00f6penick",
-    "floor": "1 (von insg. 4)",
-    "price": 350.0,
-    "rooms": 1.0,
-    "sqm": 25.0,
-    "timeframe": "ab sofort",
-    "wbs": "?",
-    "year": "2023",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14608/9998.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1064714688655210b9eaa2e_20231113130409-300x300.jpg",
-    "coords": [
-      52.4725036,
-      13.4809965
-    ]
-  },
-  {
-    "addr": "Eichbuschallee 51, Treptow-K\u00f6penick",
-    "floor": "15 (von insg. 4)",
-    "price": 370.0,
-    "rooms": 1.0,
-    "sqm": 26.0,
-    "timeframe": "ab sofort",
-    "wbs": "?",
-    "year": "2023",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14608/9999.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1646251111655210bc01e38_20231113130412-300x300.jpg",
-    "coords": [
-      52.4725036,
-      13.4809965
-    ]
-  },
-  {
-    "addr": "Schwyzer Stra\u00dfe 28, Mitte",
-    "floor": "3",
-    "price": 370.89,
-    "rooms": 2.0,
-    "sqm": 52.74,
-    "timeframe": "15. November 2023",
-    "wbs": "erforderlich",
-    "year": "1956",
-    "link": "https://inberlinwohnen.de/gpgf_10-00751-0817-G.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-gesobau-1879182047654cf0abdfddd_20231109154603-300x300.png",
-    "coords": [
-      52.5601317,
-      13.3592335
-    ]
-  },
-  {
-    "addr": "Wendenschlo\u00dfstra\u00dfe 121, K\u00f6penick",
-    "floor": "4 (von insg. 4)",
-    "price": 566.39,
-    "rooms": 3.0,
-    "sqm": 74.78,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "1998",
-    "link": "https://inberlinwohnen.de/gpgf_W1300.65830.0167-0401.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-968279990651e0fd16546e_20231005032225-300x300.jpg",
-    "coords": [
-      52.4144825,
-      13.590293
-    ]
-  },
-  {
-    "addr": "Hassoweg 19, Altglienicke",
-    "floor": "3 (von insg. 5)",
-    "price": 589.17,
-    "rooms": 3.0,
-    "sqm": 71.85,
-    "timeframe": "29. Februar 2024",
-    "wbs": "erforderlich",
-    "year": "2024",
-    "link": "https://inberlinwohnen.de/gpgf_MO::1001/5239/30.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-stadt-und-land-1955431369651eb6a282f29_20231005151410-300x300.jpg",
-    "coords": [
-      52.4100084,
-      13.5378203
-    ]
-  },
-  {
-    "addr": "Hassoweg 19, Altglienicke",
-    "floor": "1 (von insg. 5)",
-    "price": 339.04,
-    "rooms": 2.0,
-    "sqm": 52.16,
-    "timeframe": "29. Februar 2024",
-    "wbs": "erforderlich",
-    "year": "2024",
-    "link": "https://inberlinwohnen.de/gpgf_MO::1001/5239/23.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-stadt-und-land-744610520651eb6a1c5538_20231005151409-300x300.jpg",
-    "coords": [
-      52.4100084,
-      13.5378203
-    ]
-  },
-  {
-    "addr": "Krautstra\u00dfe 5, Friedrichshain",
-    "floor": "1",
-    "price": 390.96,
-    "rooms": 2.0,
-    "sqm": 63.16,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "1965",
-    "link": "https://inberlinwohnen.de/gpgf_51-3005/1/101.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-wbm-1902800959651eb176bb4d6_20231005145206-300x300.jpg",
-    "coords": [
-      52.5164555,
-      13.4288928
-    ]
-  },
-  {
-    "addr": "Konrad-Wolf-Str. 102, Lichtenberg",
-    "floor": "2 (von insg. 4)",
-    "price": 471.74,
-    "rooms": 3.0,
-    "sqm": 71.41,
-    "timeframe": "ab sofort",
-    "wbs": "?",
-    "year": "1920",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/10072/3.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-441641407651ea90af0005_20231005141610-300x300.jpg",
-    "coords": [
-      52.5444282,
-      13.493268
-    ]
-  },
-  {
-    "addr": "Gro\u00dfe-Leege-Str. 43, Lichtenberg",
-    "floor": "1 (von insg. 5)",
-    "price": 339.45,
-    "rooms": 2.0,
-    "sqm": 48.17,
-    "timeframe": "ab sofort",
-    "wbs": "?",
-    "year": "1930",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/10373/26.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-492038388651ea81d839a6_20231005141213-300x300.jpg",
-    "coords": [
-      52.5395894,
-      13.4905785
-    ]
-  },
-  {
-    "addr": "Guntherstra\u00dfe 38, Lichtenberg",
-    "floor": "1 (von insg. 5)",
-    "price": 348.99,
-    "rooms": 2.0,
-    "sqm": 49.65,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "1959",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1770/20301/150.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-90918400651ea7a03c834_20231005141008-300x300.jpg",
-    "coords": [
-      52.5147342,
-      13.5011178
-    ]
-  },
-  {
-    "addr": "Konrad-Wolf-Str. 87, Lichtenberg",
-    "floor": "4 (von insg. 4)",
-    "price": 280.69,
-    "rooms": 1.0,
-    "sqm": 36.52,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "1920",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/10913/16.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1061837715651ea096ad3e1_20231005134006-300x300.jpg",
-    "coords": [
-      52.5398635,
-      13.4847981
-    ]
-  },
-  {
-    "addr": "Hassoweg 29, Altglienicke",
-    "floor": "Ergeschoss (von insg. 4)",
-    "price": 225.12,
-    "rooms": 1.0,
-    "sqm": 33.6,
-    "timeframe": "29. Februar 2024",
-    "wbs": "erforderlich",
-    "year": "2024",
-    "link": "https://inberlinwohnen.de/gpgf_MO::1001/5239/97.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-stadt-und-land-954375002651e9a8a89aea_20231005131418-300x300.jpg",
-    "coords": [
-      52.4100084,
-      13.5378203
-    ]
-  },
-  {
-    "addr": "Goethestra\u00dfe 38, Obersch\u00f6neweide",
-    "floor": "4 (von insg. 4)",
-    "price": 438.58,
-    "rooms": 2.0,
-    "sqm": 55.92,
-    "timeframe": "ab sofort",
-    "wbs": "?",
-    "year": "1936",
-    "link": "https://inberlinwohnen.de/gpgf_W1300.20235.0016-0401.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-169337368651e7a9e1f829_20231005105806-300x300.jpg",
-    "coords": [
-      52.4622999,
-      13.5179194
-    ]
-  },
-  {
-    "addr": "K\u00fchlungsborner Str. 27, Lichtenberg",
-    "floor": "4 (von insg. 6)",
-    "price": 325.44,
-    "rooms": 2.0,
-    "sqm": 53.02,
-    "timeframe": "ab sofort",
-    "wbs": "erforderlich",
-    "year": "1986",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/12560/19.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1432430013651e78479f495_20231005104807-300x300.jpg",
-    "coords": [
-      52.571582,
-      13.4942839
-    ]
-  },
-  {
-    "addr": "Wilhelm-Kuhr-Stra\u00dfe 50, Wedding",
+    "addr": "Sewanstra\u00dfe 40, Friedrichsfelde",
     "floor": "2 (von insg. 8)",
-    "price": 276.97,
-    "rooms": 1.0,
-    "sqm": 32.7,
+    "price": 335.0,
+    "rooms": 2.0,
+    "sqm": 50.0,
     "timeframe": "ab sofort",
     "wbs": "erforderlich",
-    "year": "1969",
-    "link": "https://inberlinwohnen.de/gpgf_W1100.00728.0024-0205.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-598907928651db79c1222a_20231004210604-300x300.jpg"
+    "year": "2025",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14615/9995.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-118018220767ff692d84df6_20250416102413-300x300.jpg",
+    "coords": [
+      52.4939948,
+      13.5150652
+    ]
   },
   {
-    "addr": "Karl-Ziegler-Stra\u00dfe 3, Treptow-K\u00f6penick",
-    "floor": "1 (von insg. 5)",
-    "price": 330.0,
+    "addr": "Hagenstr. 14 A, Lichtenberg",
+    "floor": "3 (von insg. 4)",
+    "price": 576.99,
+    "rooms": 3.0,
+    "sqm": 65.08,
+    "timeframe": "31. August 2025",
+    "wbs": "?",
+    "year": "1935",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1770/20301/97.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-9506929806888976cad703_20250729114204-300x300.jpg",
+    "coords": [
+      52.5153492,
+      13.5002046
+    ]
+  },
+  {
+    "addr": "Marie-Curie-Allee 17, Rummelsburg",
+    "floor": "3 (von insg. 4)",
+    "price": 383.32,
+    "rooms": 2.0,
+    "sqm": 42.29,
+    "timeframe": "31. Juli 2025",
+    "wbs": "erforderlich",
+    "year": "1933",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1770/20584/56.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-16132856968888e0b387fa_20250729110203-300x300.jpg",
+    "coords": [
+      52.5081719,
+      13.5026053
+    ]
+  },
+  {
+    "addr": "Bernauer Stra\u00dfe 68, Gesundbrunnen",
+    "floor": "3 (von insg. 5)",
+    "price": 427.18,
+    "rooms": 2.0,
+    "sqm": 59.99,
+    "timeframe": "ab sofort",
+    "wbs": "?",
+    "year": "1977",
+    "link": "https://inberlinwohnen.de/gpgf_W1500.00753.0056-0301.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-842594254688879e3917c6_20250729093603-300x300.jpg",
+    "coords": [
+      52.539773,
+      13.4007873
+    ]
+  },
+  {
+    "addr": "Charlottenstra\u00dfe 21, K\u00f6penick",
+    "floor": "4 (von insg. 4)",
+    "price": 676.8,
     "rooms": 1.0,
-    "sqm": 24.0,
+    "sqm": 45.12,
+    "timeframe": "ab sofort",
+    "wbs": "?",
+    "year": "1961",
+    "link": "https://inberlinwohnen.de/gpgf_W1300.60702.1001-0401.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-1507113397688809daa2169_20250729013802-300x300.jpg",
+    "coords": [
+      52.4389886,
+      13.5831852
+    ]
+  },
+  {
+    "addr": "Sch\u00fctzenstra\u00dfe 11B, Altglienicke",
+    "floor": "3 (von insg. 9)",
+    "price": 624.36,
+    "rooms": 2.0,
+    "sqm": 52.03,
     "timeframe": "ab sofort",
     "wbs": "?",
     "year": "2022",
-    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14576/424.html",
-    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-2036984198651d98366daba_20231004185206-300x300.jpg",
+    "link": "https://inberlinwohnen.de/gpgf_W1300.42001.0173-0303.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-6577669986888069297214_20250729012402-300x300.jpg",
     "coords": [
-      52.4348455,
-      13.5232397
+      52.396455,
+      13.5382317
+    ]
+  },
+  {
+    "addr": "Eisenhutweg 70, Treptow-K\u00f6penick",
+    "floor": "3 (von insg. 5)",
+    "price": 318.16,
+    "rooms": 1.0,
+    "sqm": 46.11,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "2025",
+    "link": "https://inberlinwohnen.de/gpgf_W1100.42201.0096-0303.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-8599055366887b1bb4ebc3_20250728192203-300x300.jpg",
+    "coords": [
+      52.429969,
+      13.5083101
+    ]
+  },
+  {
+    "addr": "Eisenhutweg 70, Treptow-K\u00f6penick",
+    "floor": "2 (von insg. 5)",
+    "price": 318.16,
+    "rooms": 1.0,
+    "sqm": 46.11,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "2025",
+    "link": "https://inberlinwohnen.de/gpgf_W1100.42201.0091-0203.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-7369711126887b14359e37_20250728192003-300x300.jpg",
+    "coords": [
+      52.429969,
+      13.5083101
+    ]
+  },
+  {
+    "addr": "Hendrichplatz 10, Lichtenberg",
+    "floor": "5 (von insg. 5)",
+    "price": 631.02,
+    "rooms": 3.0,
+    "sqm": 68.21,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "1957",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1770/20875/58.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-20064519156887a159f23ca_20250728181209-300x300.jpg",
+    "coords": [
+      52.5195582,
+      13.4841885
+    ]
+  },
+  {
+    "addr": "Gehrenseestr. 67, Alt-Hohensch\u00f6nhausen",
+    "floor": "4 (von insg. 6)",
+    "price": 472.0,
+    "rooms": 3.0,
+    "sqm": 72.62,
+    "timeframe": "31. August 2025",
+    "wbs": "erforderlich",
+    "year": "1973",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1770/24062/177.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-11688788586887a15be6115_20250728181211-300x300.jpg",
+    "coords": [
+      52.5531954,
+      13.5182752
+    ]
+  },
+  {
+    "addr": "Storkower Str. 191, Fennpfuhl",
+    "floor": "6 (von insg. 6)",
+    "price": 417.03,
+    "rooms": 3.0,
+    "sqm": 56.84,
+    "timeframe": "31. Juli 2025",
+    "wbs": "erforderlich",
+    "year": "1981",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1770/20114/96.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-564766272688723b67e700_20250728091606-300x300.jpg",
+    "coords": [
+      52.5252388,
+      13.4627292
+    ]
+  },
+  {
+    "addr": "Woldegker Stra\u00dfe 8A, Neu-Hohensch\u00f6nhausen",
+    "floor": "5 (von insg. 6)",
+    "price": 673.0,
+    "rooms": 2.0,
+    "sqm": 47.0,
+    "timeframe": "ab sofort",
+    "wbs": "?",
+    "year": "2025",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/12810/18.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-9583444476880924d7655b_20250723094205-300x300.jpg",
+    "coords": [
+      52.5740213,
+      13.5112606
+    ]
+  },
+  {
+    "addr": "Eichbuschallee 51, Pl\u00e4nterwald",
+    "floor": "3 (von insg. 4)",
+    "price": 400.0,
+    "rooms": 1.0,
+    "sqm": 25.0,
+    "timeframe": "31. Juli 2025",
+    "wbs": "?",
+    "year": "2023",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14608/120.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-185532386468808d9d39449_20250723092205-300x300.jpg",
+    "coords": [
+      52.4725036,
+      13.4809965
+    ]
+  },
+  {
+    "addr": "Eichbuschallee 53, Pl\u00e4nterwald",
+    "floor": "2 (von insg. 4)",
+    "price": 420.0,
+    "rooms": 1.0,
+    "sqm": 26.0,
+    "timeframe": "31. Juli 2025",
+    "wbs": "?",
+    "year": "2023",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14608/196.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1609162950687f8e264105a_20250722151206-300x300.jpg",
+    "coords": [
+      52.4718745,
+      13.480885
+    ]
+  },
+  {
+    "addr": "Eichbuschallee 51, Pl\u00e4nterwald",
+    "floor": "3 (von insg. 4)",
+    "price": 420.0,
+    "rooms": 1.0,
+    "sqm": 26.0,
+    "timeframe": "31. Juli 2025",
+    "wbs": "?",
+    "year": "2023",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14608/117.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-397206913687f8bcd211f9_20250722150205-300x300.jpg",
+    "coords": [
+      52.4725036,
+      13.4809965
+    ]
+  },
+  {
+    "addr": "Siegfriedstr. 192 A, Lichtenberg",
+    "floor": "4 (von insg. 5)",
+    "price": 417.23,
+    "rooms": 2.0,
+    "sqm": 48.69,
+    "timeframe": "31. Juli 2025",
+    "wbs": "erforderlich",
+    "year": "?",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1770/20221/141.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-607769950687a22a55cfda_20250718123205-300x300.jpg",
+    "coords": [
+      52.5178663,
+      13.4989331
+    ]
+  },
+  {
+    "addr": "Mahlower Stra\u00dfe 32, K\u00f6penick",
+    "floor": "5 (von insg. 6)",
+    "price": 436.6,
+    "rooms": 3.0,
+    "sqm": 68.67,
+    "timeframe": "ab sofort",
+    "wbs": "?",
+    "year": "1989",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1770/24048/242.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-13619054146874c3ccd57ff_20250714104604-300x300.jpg",
+    "coords": [
+      52.4381073,
+      13.56615
+    ]
+  },
+  {
+    "addr": "Woldegker Stra\u00dfe 8A, Neu-Hohensch\u00f6nhausen",
+    "floor": "6 (von insg. 6)",
+    "price": 673.0,
+    "rooms": 2.0,
+    "sqm": 47.0,
+    "timeframe": "ab sofort",
+    "wbs": "?",
+    "year": "2025",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/12810/22.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-204987892686f7b758f904_20250710103605-300x300.jpg",
+    "coords": [
+      52.5740213,
+      13.5112606
+    ]
+  },
+  {
+    "addr": "Mohnweg 7, Altglienicke",
+    "floor": "4 (von insg. 4)",
+    "price": 474.0,
+    "rooms": 2.0,
+    "sqm": 51.0,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "2025",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14559/407.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-1732259367682f1583d6bc8_20250522141603-300x300.jpg",
+    "coords": [
+      52.4083725,
+      13.5352634
+    ]
+  },
+  {
+    "addr": "Sewanstra\u00dfe 40, Friedrichsfelde",
+    "floor": "3 (von insg. 8)",
+    "price": 435.5,
+    "rooms": 3.0,
+    "sqm": 65.0,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "2025",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1771/14615/9998.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-162895049767ff6927e2261_20250416102407-300x300.jpg",
+    "coords": [
+      52.4939948,
+      13.5150652
     ]
   }
 ]
