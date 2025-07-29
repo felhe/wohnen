@@ -1,5 +1,101 @@
 [
   {
+    "addr": "Triniusstra\u00dfe 6A, Obersch\u00f6neweide",
+    "floor": "1 (von insg. 3)",
+    "price": 451.77,
+    "rooms": 2.0,
+    "sqm": 51.66,
+    "timeframe": "30. September 2025",
+    "wbs": "?",
+    "year": "1936",
+    "link": "https://inberlinwohnen.de/gpgf_W1300.20230.0028-0102.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-7953485946888ecba955aa_20250729174602-300x300.jpg",
+    "coords": [
+      52.4659732,
+      13.5211806
+    ]
+  },
+  {
+    "addr": "R\u00fcdigerstr. 57, Lichtenberg",
+    "floor": "1 (von insg. 4)",
+    "price": 580.04,
+    "rooms": 3.0,
+    "sqm": 62.7,
+    "timeframe": "14. August 2025",
+    "wbs": "erforderlich",
+    "year": "1957",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1770/26762/25.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-4983400116888e35e3df91_20250729170606-300x300.jpg",
+    "coords": [
+      52.5150422,
+      13.5039772
+    ]
+  },
+  {
+    "addr": "Arthur-Weisbrodt-Str. 7, Fennpfuhl",
+    "floor": "3 (von insg. 5)",
+    "price": 521.86,
+    "rooms": 3.0,
+    "sqm": 59.6,
+    "timeframe": "31. Juli 2025",
+    "wbs": "erforderlich",
+    "year": "1962",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1770/20130/35.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-howoge-16333016966888e26c9339c_20250729170204-300x300.jpg",
+    "coords": [
+      52.5273793,
+      13.4606103
+    ]
+  },
+  {
+    "addr": "Wendenschlo\u00dfstra\u00dfe 132, K\u00f6penick",
+    "floor": "5 (von insg. 5)",
+    "price": 332.61,
+    "rooms": 1.0,
+    "sqm": 46.1,
+    "timeframe": "31. Juli 2025",
+    "wbs": "erforderlich",
+    "year": "2019",
+    "link": "https://inberlinwohnen.de/gpgf_W1300.66221.0018-0503.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-17916143676888df9b17dcf_20250729165003-300x300.jpg",
+    "coords": [
+      52.4398367,
+      13.5815531
+    ]
+  },
+  {
+    "addr": "Ilsestr. 30 B, Karlshorst",
+    "floor": "2 (von insg. 4)",
+    "price": 529.4,
+    "rooms": 2.0,
+    "sqm": 50.5,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "1959",
+    "link": "https://inberlinwohnen.de/gpgf_ESQ::1770/26318/129.html",
+    "image": "https://inberlinwohnen.de/wp-content/themes/ibw/images/flat-dummy.jpg",
+    "coords": [
+      52.4884679,
+      13.5179072
+    ]
+  },
+  {
+    "addr": "Wendenschlo\u00dfstra\u00dfe 103, K\u00f6penick",
+    "floor": "4 (von insg. 4)",
+    "price": 612.75,
+    "rooms": 2.0,
+    "sqm": 60.97,
+    "timeframe": "ab sofort",
+    "wbs": "erforderlich",
+    "year": "1996",
+    "link": "https://inberlinwohnen.de/gpgf_W1300.65830.0006-0401.html",
+    "image": "https://inberlinwohnen.de/wp-content/uploads/flats/v2-degewo-9516811286888b6d2bc9e6_20250729135602-300x300.jpg",
+    "coords": [
+      52.4420644,
+      13.5822242
+    ]
+  },
+  {
     "addr": "Sewanstra\u00dfe 40, Friedrichsfelde",
     "floor": "1 (von insg. 8)",
     "price": 240.5,

@@ -33,7 +33,7 @@ def get_sample(site):
         return f.read()
 
 
-def main():
+async def main():
     for site in args.sites:
         logger.info("Checking {}".format(site))
         sitem = getattr(sys.modules[__name__], site)
@@ -62,7 +62,7 @@ def main():
         # get coordinates
         for apart in new_apartments:
             if 'addr' in apart:
-                coords = asyncio.run(nominatim.geocode(apart['addr'] + ", Berlin"))
+                coords = await nominatim.geocode(apart['addr'] + ", Berlin")
                 if coords is not None:
                     apart['coords'] = coords
 
@@ -72,19 +72,23 @@ def main():
 
         logger.info("Found {} new apartments".format(len(new_apartments)))
 
-        if args.telegram:
-            for apart in new_apartments:
-                asyncio.run(bot.send_apartment(apart))
-                time.sleep(2)
+        if args.telegram and new_apartments:
+            logger.info("Sending {} apartment notifications via Telegram".format(len(new_apartments)))
+            await bot.send_apartments(new_apartments)
 
 
 if __name__ == "__main__":
-    main()
     if args.interval > 0:
         lower = round(args.interval - args.interval / 2)
         upper = round(args.interval + args.interval / 2)
         logger.info("Running every {} to {} minutes".format(lower, upper))
-        schedule.every(lower).to(upper).minutes.do(main)
-        while True:
-            schedule.run_pending()
-            time.sleep(1)
+        schedule.every(lower).to(upper).minutes.do(lambda: asyncio.create_task(main()))
+
+        async def run_scheduled():
+            while True:
+                schedule.run_pending()
+                await asyncio.sleep(1)
+
+        asyncio.run(run_scheduled())
+    else:
+        asyncio.run(main())

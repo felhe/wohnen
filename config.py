@@ -1,18 +1,27 @@
 import os
+import logging
 from logging import DEBUG, INFO, WARNING, ERROR
 
 jsonfile = "./wohnen.json"
 loglevel = INFO
 
+# Set up logger for config
+logger = logging.getLogger(__name__)
+
 bot_token = os.environ['TELEGRAM_BOT_TOKEN']
 chat_id = os.environ['TELEGRAM_CHAT_ID']
 channel_id = os.environ['TELEGRAM_CHANNEL_ID']
+
+# Log environment variables (without exposing the token)
+logger.info(f"Telegram bot configured - Chat ID: {chat_id}, Channel ID: {channel_id}")
 
 # set search parameters
 min_rooms = 1
 max_rooms = 3
 # max rent or 700 as default
 max_rent = os.environ['MAX_RENT'] if 'MAX_RENT' in os.environ else 700
+logger.info(f"Max rent configured: {max_rent}")
+
 bez = [
     "01_00",
     "02_00",
@@ -25,3 +34,4 @@ bez = [
 # 2 = doesn't matter
 # parse as int
 wbs = int(os.environ['WBS']) if 'WBS' in os.environ else 2
+logger.info(f"WBS setting: {wbs}")
