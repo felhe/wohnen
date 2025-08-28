@@ -1,9 +1,11 @@
-import os
 import logging
-from logging import DEBUG, INFO, WARNING, ERROR
+import os
+
+loglevel = os.environ['LOG_LEVEL'] if 'LOG_LEVEL' in os.environ else 'INFO'
+
+logging.basicConfig(level=loglevel)
 
 jsonfile = "./wohnen.json"
-loglevel = INFO
 
 # Set up logger for config
 logger = logging.getLogger(__name__)

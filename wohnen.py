@@ -1,7 +1,7 @@
+import logging
 import argparse
 import asyncio
 import json
-import logging
 import sys
 import time
 
@@ -23,8 +23,6 @@ parser.add_argument("--interval", type=int, default=0, help="run continuously wi
 args = parser.parse_args()
 
 logger = logging.getLogger()
-logger.setLevel(config.loglevel)
-
 
 def get_sample(site):
     logger.warning("Using sample file for {}".format(site))
