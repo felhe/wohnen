@@ -56,6 +56,9 @@ async def main():
                 known_apartments = []
 
         new_apartments = [x for x in apartments if x['link'] not in [y['link'] for y in known_apartments]]
+        # explicitly filter out apartments with wbs required if not wanted, because the scraper returns them anyway sometimes
+        if config.wbs == 0:
+            new_apartments = [x for x in new_apartments if 'wbs' not in x or x['wbs'] != 'erforderlich']
 
         # get coordinates
         for apart in new_apartments:
